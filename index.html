@@ -3,66 +3,139 @@
     <title>lalita.html</title>
     <style type="text/css">
         body{
-          margin:0;
+          margin:0 auto;
         }
         #mainarea{
           width:1200px;
-          height:100px;
+          height:60px;
           background:#FFD86C;
-          padding:0 50px;
+          
         }
-        #mainareadata{
+        #mainarea h4{
           color:maroon;
           font-size:18px;
-          padding-left:60px;
+          padding-left:150px;
+          float:left;
+        }
+        #mainarea p{
+          color:maroon;
+          font-size:18px;
+          font-weight:bold;
+          padding-left:100px;
+          padding-top:5px;
+          float:left;
         }
         #mainarea a:hover{
           background-color:#FFD86C;
+          color:maroon;
         }
         #mainarea a{
-          width:40px;
-          height:10px;
           background-color:maroon;
-          padding:5px;
+          padding:6px;
           text-decoration:none;
           color:#FFF;
-          border-radius:6px;
-          margin:100px;
+          border-radius:8px;
+          margin-left:250px;
+          margin-top:10px;
+          float:left;
         }
         #toparea{
-          width:300px;
-          height:450px;
+          width:1200px;
+          height:140px;
           background:#000;
           color:#FFD86C;
-          padding:0 50px;
+          margin-top:0px;
+        
         }
-        #toparea h6{
-          font-size:46px;
-          font-weight:140;
+        #toparea img{
+          width:200px;
+          height:140px;
+          border-radius:50%;
+          margin-left:-550px;
+          padding-top:0px;
+        }
+        #toparea h5{
+          font-size:36px;
+          font-weight:140px;
+          margin-top:20px;
+          margin-right:450px;
+          float:left;
           }
-        #logoarea{
-          width:400px;
+        #toparea p{
+          font-size:20px;
+          color:#FFD86C;
+          float:left;
+          margin-left:250px;
+          margin-top:-40px;
+         
+        }	#toparea ul{
+				list-style:none;
+				margin:0px;
+				padding:0px;
+				margin-left:400px;
+			}
+			#toparea ul li{
+				float:left;
+				margin-top:-58px;
+		  }
+			#toparea ul li a:link,#toparea ul li a:visited{
+				text-decoration:none;
+				color:maroon;
+				background:#000;
+				padding:20px 25px;
+				display:block;
+				border-right:solid 1px black;
+				border-radius:6px;
+			}
+			#toparea ul li a:hover{
+				color:#FFF;
+				background:#FFD86C;
+			}
+			#toparea ul li ul{
+				display:none;
+			}
+			#toparea ul li:hover ul{
+				display:block;
+				position:absolute;
+	
+			}
+			#toparea ul li:hover ul li{
+				float:none;
+			}
+	   #logoarea{
+          width:1200px;
           height:1400px;
           background:white;
         }
-        #logoarea image{
-          width:80%;
-          height:250px;
+        #logoarea img{
+          width:1150px;
+          height:600px;
+          margin:0 1%;
+        
         }
         #logoarea h1{
           color:#F1C716;
           font-weight:400px;
           padding:0 50px;
-          font-family:verdana;
+          font-style:italic;
+          font-size:36px;
+          margin:0 100px;
           
         }
         #logoarea p{
           color:gray;
           font-size:26px;
           padding:20px;
-        }
-        .boxarea{
-          width:400px;
+          margin:15px 100px;
+          text-align:left;
+    		}
+    		#image img{
+    		  width:300px;
+    		  height:250px;
+    		  max-r;
+    		}
+      #boxarea{
+          width:1200px;
           height:710px;
           background:green;
         }
@@ -83,23 +156,44 @@
     </head>
     <body>
       <div id="mainarea">
-        <div id="mainareadata"> <p>&nbsp; &nbsp; &nbsp; &nbsp;7482825534<br>eshakumarijsr2@gmail.com</p>
-          <a href="xyz">BOOK NOW</a>
-        </div>
+        <h4>7482825534</h4>
+        <p>eshakumarijsr2@gmail.com</p>
+        <a href="https://book.com">BOOK NOW</a>
       </div>
       
       <div id="toparea">
-        <img src="img.png"/>
-        <h6>R.K Tent House</h6>
-        <p>Make Your events special!!</p>
+        <img src="logo.jpg"/>
+        <h5>R.K Tent House</h5>
+        <p align="center">Make Your events special!!</p>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Planning</a></li>
+          <li><a href="#">Gallery</a>
+            <ul>
+              <li><a href="#">My Works</a></li>
+              <li><a href="#">My Works</a></li>
+              <li><a href="#">Mehndi</a></li>
+              <li><a href="#">Haldi</a></a></li>
+              <li><a href="#">Stage</a></li>
+              <li><a href="#">Passage</a></li>
+              <li><a href="#">Birthday's</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+          
+        </ul>
       </div>
       <div id="logoarea">
-        <img src="logo.png"/>
-        <h1>Welcome to R.K.<br> Tent House!!</h1>
-        <p>"R.K. Tent House" is a wedding<br>designing and event planning<br>company, set up almost three<br> decades ago with an extensive<br> in - house production facility,<br> from idea to reality, from fabric<br> to upholstery and from flowers<br> to lighting.</p>
-        <img src="logo.png"/>
-        <p><b>“R.K Tent House is committed to excellence and offers you the world-class decoration, Tents, and Catering Management Services for your wedding ceremony, religious, parties, events, etc."</b><br><br>We are one of the leading Canvas and Catering Services providers in Jamshedpur and we offer event management services comprising a wide range of well designed and customizable packages as per the requirements of large institutions, clubs, corporate houses, hotels, and private party, etc. The services offered by us are wholesome, well delivered, reliable, and can be availed at a very short notice period that has gained us widespread popularity among clients in the domestic market.</p>
-          
+        <img src="2.png"/>
+        <h1>Welcome to R.K. Tent House!!</h1>
+        <p>"R.K. Tent House" is a weddingdesigning and event planningcompany, set up almost three decades ago with an extensive in - house production facility,from idea to reality, from fabric to upholstery and from flowers to lighting.</p>
+        <div id="image">
+          <img src="bg1.webp"/>
+          <p><b>“R.K Tent House is committed to excellence and offers you the world-class decoration, Tents, and Catering Management Services for your wedding ceremony, religious, parties, events, etc."</b><br><br>We are one of the leading Canvas and Catering Services providers in Jamshedpur and we offer event management services comprising a wide range of well designed and customizable packages as per the requirements of large institutions, clubs, corporate houses, hotels, and private party, etc. The services offered by us are wholesome, well delivered, reliable, and can be availed at a very short notice period that has gained us widespread popularity among clients in the domestic market.</p>
+        </div>
       </div>
       <div class="boxarea">
         <div class="box bg1">
